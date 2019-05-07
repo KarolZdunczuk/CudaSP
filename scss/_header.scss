@@ -1,4 +1,18 @@
-@import 'colors';
 .page-header{
     background-color: $affair;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    .page-header__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        .page-header__heading {
+            color: $merino;
+            padding: 25px 15px;
+            line-height: 1.2;
+        }
+    }
 }
