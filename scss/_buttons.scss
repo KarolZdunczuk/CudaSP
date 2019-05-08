@@ -1,12 +1,15 @@
 .page-btn {
-    font-weight: 600;
-    text-transform: uppercase;
-    border-radius: 5px;
-    color: $merino;
-    border:0;
-    padding: 20px 35px;
-    margin: 25px 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: $merino;
+  border: 0;
+  padding: 20px 35px;
+  margin: 25px 15px;
+  box-shadow: 1px -6px 1px -1px rgba(48, 48, 48, 0.2) inset;
+  -webkit-box-shadow: 1px -6px 1px -1px rgba(48, 48, 48, 0.2) inset;
+  -moz-box-shadow: 1px -6px 1px -1px rgba(48, 48, 48, 0.2) inset;
 }
 .page-btn__orange {
-    background-color: $burnt-sienna;
+  background-color: $burnt-sienna;
 }

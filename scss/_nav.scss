@@ -1,23 +1,23 @@
-.page-nav{
-    padding: 10px 0;
-    .page-nav__logo {
-        padding: 15px;
+.page-nav {
+  padding: 10px 0;
+  .page-nav__logo {
+    padding: 15px;
+  }
+  .page-nav__list {
+    .page-nav__item {
+      text-align: center;
+      padding: 15px;
+      border-radius: 5px;
+      &:hover {
+        background-color: $dark-affair;
+      }
+      &:active {
+        background-color: $dark-affair;
+      }
+      .page-nav__link {
+        text-transform: uppercase;
+        color: $merino;
+      }
     }
-    .page-nav__list {
-        .page-nav__item{
-            text-align: center;
-            padding: 15px;
-            border-radius: 5px;
-            &:hover {
-                background-color: $dark-affair;
-            }
-            &:active {
-                background-color: $dark-affair;
-            }
-            .page-nav__link{
-                text-transform: uppercase;
-                color:$merino;
-            }
-        }
-    }
+  }
 }
