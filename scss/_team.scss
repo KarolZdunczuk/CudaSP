@@ -1,0 +1,41 @@
+.section-team{
+background-color: $ziggurat;
+color: $fiord;
+.page-text{
+    padding: 0 25px;
+ }
+ .position{
+     color: $picton-blue;
+ }
+ .social-icon__list{
+     width: 60%;
+     padding: 25px 0;
+     display: flex;
+     justify-content: space-around;
+     .social-icon__item{
+         
+         .social-icon__link{
+            
+            .fa-stack {
+                color: $botticelli;
+                &:hover, &:active{
+                   color:$white;
+                   .fa-facebook-f{
+                       color: $facebook;
+                   }
+                   .fa-twitter{
+                    color: $twitter;
+                   }
+                   .fa-linkedin-in{
+                    color: $linkedin;
+                   }
+                   .fa-envelope{
+                    color: $googlered;
+                   }
+                }
+                
+            }
+         }
+     }
+ }
+}
