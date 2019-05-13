@@ -4,12 +4,34 @@
   border-radius: 5px;
   color: $merino;
   border: 0;
-  padding: 20px 35px;
+}
+.big-btn {
   margin: 25px 15px;
+  padding: 20px 35px;
   box-shadow: 1px -6px 1px -1px rgba(48, 48, 48, 0.2) inset;
   -webkit-box-shadow: 1px -6px 1px -1px rgba(48, 48, 48, 0.2) inset;
   -moz-box-shadow: 1px -6px 1px -1px rgba(48, 48, 48, 0.2) inset;
+  max-width: 200px;
 }
 .page-btn__orange {
   background-color: $burnt-sienna;
+  max-width: 300px;
+}
+.portfolio-btn {
+  padding: 8px 16px;
+  color: $fiord;
+  background-color: $rob-roy;
+  &:hover {
+    background-color: $ziggurat;
+  }
+  &:active {
+    background-color: $ziggurat;
+  }
+}
+.page-btn__green {
+  
+  background-color: $mountain-meadow;
+}
+.page-btn__blue {
+  background-color: $picton-blue;
 }

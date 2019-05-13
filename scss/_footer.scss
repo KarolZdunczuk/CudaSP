@@ -1,0 +1,18 @@
+.page-footer {
+  background-color: $light-chambray;
+  .page-footer__list {
+    .page-footer__item {
+      padding: 10px;
+
+      .page-footer__link {
+        color: $ziggurat;
+        &:hover {
+          color: $mountain-meadow;
+        }
+        &:active {
+          color: $mountain-meadow;
+        }
+      }
+    }
+  }
+}
