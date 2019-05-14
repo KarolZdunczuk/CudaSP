@@ -1,11 +1,14 @@
 .page-header {
+  padding-top: 0;
   background-color: $affair;
   height: 100vh;
   .page-header__box {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
+    height: 100%;
     .page-header__heading {
       color: $merino;
       padding: 0 15px;

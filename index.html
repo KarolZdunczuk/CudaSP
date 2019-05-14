@@ -15,29 +15,37 @@
 
 <body>
 
-    <header class="page-header container">
+    <header class="container page-header ">
 
         <!--PAGE NAVIGATION-->
 
         <nav class="page-nav">
-            <img src="/img/logo.png" class="page-nav__logo" alt="logo"></img>
-            <ul class="page-nav__list ">
-                <li class="page-nav__item">
-                    <a href="" class="page-nav__link">home</a>
-                </li>
-                <li class="page-nav__item">
-                    <a href="" class="page-nav__link">about</a>
-                </li>
-                <li class="page-nav__item">
-                    <a href="" class="page-nav__link">work</a>
-                </li>
-                <li class="page-nav__item">
-                    <a href="" class="page-nav__link">blog</a>
-                </li>
-                <li class="page-nav__item">
-                    <a href="" class="page-nav__link">contact</a>
-                </li>
-            </ul>
+            <div class="page-nav__header">
+                    <img src="/img/logo.png" class="page-nav__logo" alt="logo"></img>
+                    <button class="hamburger" type="button"><i class="fas fa-bars fa-2x open-icon"></i><i class="fas fa-times fa-2x close-icon"></i></button>
+            </div>
+                
+                <ul class="page-nav__list ">
+                        <li class="page-nav__item">
+                            <a href="" class="page-nav__link">home</a>
+                        </li>
+                        <li class="page-nav__item">
+                            <a href="" class="page-nav__link">about</a>
+                        </li>
+                        <li class="page-nav__item">
+                            <a href="" class="page-nav__link">work</a>
+                        </li>
+                        <li class="page-nav__item">
+                            <a href="" class="page-nav__link">blog</a>
+                        </li>
+                        <li class="page-nav__item">
+                            <a href="" class="page-nav__link">contact</a>
+                        </li>
+                    </ul>
+                   
+            </div>
+
+            
         </nav>
 
         <!--PAGE HEADING-->
@@ -379,7 +387,7 @@
                 Amercia. <br> Tel:(202) 456-1111</p>
             <form class="contact-section__form container" action="/action_page.php">
                 <input name="firstname" class="form-input" type="text" placeholder="Your name">
-                <input name="lastname" class="form-input"  type="text" placeholder="E-mail">
+                <input name="lastname" class="form-input" type="text" placeholder="E-mail">
                 <br>
                 <textarea name="message" class="form-input form-input__message" placeholder="Your message"></textarea>
                 <br>
