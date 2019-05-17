@@ -2,34 +2,39 @@
   background-color: $ziggurat;
   color: $fiord;
   .page-text {
-    padding: 0 25px;
+    text-align: center;
   }
   .position {
     color: $picton-blue;
   }
-  .social-icon__list {
-    width: 60%;
-    padding: 25px 0;
-    display: flex;
-    justify-content: space-around;
-    .social-icon__item {
-      .social-icon__link {
-        .fa-stack {
-          color: $botticelli;
-          &:hover,
-          &:active {
-            color: $white;
-            .fa-facebook-f {
-              color: $facebook;
-            }
-            .fa-twitter {
-              color: $twitter;
-            }
-            .fa-linkedin-in {
-              color: $linkedin;
-            }
-            .fa-envelope {
-              color: $googlered;
+  .container .page-items__container {
+    .page-item {
+      padding: 40px;
+      .social-icon__list {
+        width: 60%;
+        padding: 25px 0;
+        display: flex;
+        justify-content: space-around;
+        .social-icon__item {
+          .social-icon__link {
+            .fa-stack {
+              color: $botticelli;
+              &:hover,
+              &:active {
+                color: $white;
+                .fa-facebook-f {
+                  color: $facebook;
+                }
+                .fa-twitter {
+                  color: $twitter;
+                }
+                .fa-linkedin-in {
+                  color: $linkedin;
+                }
+                .fa-envelope {
+                  color: $googlered;
+                }
+              }
             }
           }
         }

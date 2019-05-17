@@ -1,0 +1,218 @@
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .page-header__box {
+      .page-header__heading {
+        font-size: 3rem;
+        margin: 20px 0;
+      }
+    }
+    .section-works {
+      .page-items__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .page-item {
+          width: 40%;
+        }
+      }
+    }
+    .section-team {
+      .page-items__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .page-item {
+          width: 60%;
+        }
+      }
+    }
+    .skills-section {
+      .page-items__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .page-item {
+          width: 40%;
+        }
+      }
+    }
+    .testimonials-section {
+      .page-items__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .page-item {
+          width: 60%;
+        }
+      }
+    }
+    .contact-section {
+      .contact-section__form {
+        width: 60%;
+      }
+    }
+    .page-footer {
+      .page-footer__list {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+  }
+  
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) {
+    .page-nav {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      align-items: center;
+      padding: 20px 0;
+      .page-nav__header {
+        width: 30%;
+      }
+      .page-nav__list {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .hamburger {
+        display: none;
+  
+        .close-icon {
+          display: none;
+        }
+      }
+    }
+    .page-header__box {
+      width: 70%;
+    }
+  
+    .section-team {
+      .page-items__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .page-item {
+          width: 40%;
+        }
+      }
+    }
+  
+    .testimonials-section {
+      .page-items__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .page-item {
+          width: 40%;
+        }
+      }
+    }
+  }
+  
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    .page-section {
+      padding: 50px 0;
+    }
+    .page-header__box {
+      width: 100%;
+    }
+    .section-works {
+      .page-items__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        .page-item {
+          width: 20%;
+        }
+      }
+    }
+    .section-team {
+      .page-items__container {
+        flex-wrap: nowrap;
+        align-items: stretch;
+        .page-item {
+          .page-text__s {
+            height: 250px;
+          }
+        }
+      }
+    }
+    .skills-section {
+      .page-items__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        .page-item {
+          width: 20%;
+        }
+      }
+    }
+    .section-portfolio {
+      .page-items__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        .page-item {
+          width: 40%;
+        }
+      }
+    }
+    .page-main .testimonials-section {
+      .page-items__container {
+        padding: 25px;
+        align-items: baseline;
+  
+        .page-item {
+          padding: 30px;
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          text-align: left;
+  
+          .page-item__img {
+            margin-right: 40px;
+            padding: 0;
+            width: 120px;
+          }
+        }
+      }
+    }
+    .contact-section {
+      .contact-section__form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+        .form-input.firstname {
+          flex: 1;
+        }
+        .form-input.lastname {
+          flex: 1;
+        }
+      }
+    }
+    .page-footer {
+      padding: 20px;
+      .container {
+        width: 100%;
+        .page-footer__list {
+          width: 100%;
+          justify-content: space-around;
+        }
+      }
+    }
+  }
+  

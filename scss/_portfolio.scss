@@ -2,5 +2,11 @@
     background-color: $cream-brulee;
     color: $fiord;
     .btn-container{
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+        .portfolio-btn {
+            margin: 5px;
+        }
     }
 }
